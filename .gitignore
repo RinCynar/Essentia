@@ -1,0 +1,14 @@
+# Local instructions & notes (do not sync)
+ALETHEIA_INSTRUCTIONS.md
+ALETHEIA_INSTRUCTIONS*
+*.local.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
