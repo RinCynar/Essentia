@@ -2,6 +2,8 @@
 ALETHEIA_INSTRUCTIONS.md
 ALETHEIA_INSTRUCTIONS*
 *.local.md
+todo*
+todo1
 
 # Python cache
 __pycache__/
