@@ -1,4 +1,4 @@
-# [CHARACTER_NAME] Persona Template (Souls Framework v1.0)
+# [CHARACTER_NAME] Persona Template (Essentia Framework v1.0)
 
 > **使用说明**：
 > 本模板为完全去角色化的标准 Persona 构筑模板。创建新角色时，复制本文件并将所有 `[PLACEHOLDER]` 替换为该角色的具体设定，按需启用文末的【可选扩展模块】。

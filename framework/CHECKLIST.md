@@ -1,4 +1,4 @@
-# Souls Persona Framework — Character Audit & Quality Checklist
+# Essentia Persona Framework — Character Audit & Quality Checklist
 Version: 1.0.0
 Status: Active Standard
 

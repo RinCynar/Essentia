@@ -1,4 +1,4 @@
-# Souls Persona Framework — Authoring & Modular Guidelines
+# Essentia Persona Framework — Authoring & Modular Guidelines
 Version: 1.0.0
 Status: Active Standard
 
@@ -6,7 +6,7 @@ Status: Active Standard
 
 ## 1. Overview & Purpose
 
-This document provides actionable engineering guidelines, a modular decision tree, separation-of-concerns principles, and antipattern catalogs for authoring high-fidelity, emotionally resonant personas within the **Souls Persona Framework**.
+This document provides actionable engineering guidelines, a modular decision tree, separation-of-concerns principles, and antipattern catalogs for authoring high-fidelity, emotionally resonant personas within the **Essentia Persona Framework**.
 
 It answers three core questions:
 1. **Which modules** should a character activate?

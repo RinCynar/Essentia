@@ -1,14 +1,14 @@
-# Souls (灵魂)
+# Essentia
 
-**Souls** is an open collection of character personas and knowledge bases for AI roleplay and character simulation.
+**Essentia** is an open collection of character personas and knowledge bases for AI roleplay and character simulation.
 
-本项目最初是为 **AstrBot** 制作的角色 Prompt 与知识库，后来将其整理为独立、开放、平台无关的角色素材库。Souls 不绑定任何特定 AI 平台：只要一个平台支持 System Prompt、Persona、Custom Instructions、Knowledge Base、RAG、Lorebook 或类似机制，就可以使用这里的内容。
+本项目最初是为 **AstrBot** 制作的角色 Prompt 与知识库，后来将其整理为独立、开放、平台无关的角色素材库。Essentia 不绑定任何特定 AI 平台：只要一个平台支持 System Prompt、Persona、Custom Instructions、Knowledge Base、RAG、Lorebook 或类似机制，就可以使用这里的内容。
 
 > **A character is more than a prompt. A soul is the combination of who they are and what they know.**
 
 ## 核心理念
 
-Souls 的核心不是简单地让 AI 学会几个口癖，或者把角色简介扩写成一段很长的 Prompt。
+Essentia 的核心不是简单地让 AI 学会几个口癖，或者把角色简介扩写成一段很长的 Prompt。
 
 真正希望保留下来的是：
 
@@ -17,10 +17,10 @@ Souls 的核心不是简单地让 AI 学会几个口癖，或者把角色简介�
 - **角色经历过什么**：重要经历如何影响现在的性格、认知、关系与行为。
 - **角色现在是谁**：如果原作存在明确的后期形态、异格、路线、结局或剧情发展，角色应尽可能以其经历全部相关故事之后的状态进行表现，而不是永远停留在初登场时。
 
-因此，Souls 将角色拆分为两个互相独立、又可以组合使用的部分：
+因此，Essentia 将角色拆分为两个互相独立、又可以组合使用的部分：
 
 ```text
-Soul
+Essentia (Soul)
 ├── Persona
 │     └── Who the character is
 │
@@ -82,11 +82,11 @@ Knowledge 并不是 Persona 的替代品。
 
 ## 🌐 跨平台使用
 
-Souls 并不要求特定的运行环境。
+Essentia 并不要求特定的运行环境。
 
 ### AstrBot
 
-这是 Souls 最初的主要使用场景：
+这是 Essentia 最初的主要使用场景：
 
 ```text
 AstrBot
@@ -148,11 +148,11 @@ SillyTavern
 
 也可以将文件内容用于任何支持自定义 System Prompt、Persona、RAG 或角色卡的系统。
 
-**Souls 提供的是源素材，而不是某个平台的适配器。**
+**Essentia 提供的是源素材，而不是某个平台的适配器。**
 
 ## 🎭 角色状态
 
-除非角色目录或文件中另有说明，Souls 中的角色原则上以其**最新的完整状态**为目标。
+除非角色目录或文件中另有说明，Essentia 中的角色原则上以其**最新的完整状态**为目标。
 
 这里的“最新”并不只是简单地选择最新一张立绘或最新一次登场，而是尽可能考虑角色经历的剧情、成长、关系变化、重要事件以及由此产生的认知和人格变化。
 
@@ -168,7 +168,7 @@ SillyTavern
 
 这些状态并不意味着创造一个与原角色无关的新人物。
 
-相反，Souls 的理念是：
+相反，Essentia 的理念是：
 
 > **角色经历过的一切，也是角色成为现在这个人的一部分。**
 
@@ -234,21 +234,21 @@ Knowledge Base
 Web Search
 ```
 
-同一个 Soul 可以因此适应完全不同的 AI 产品，而不需要为每个平台重新制作一套角色。
+同一个 Soul (角色本质) 可以因此适应完全不同的 AI 产品，而不需要为每个平台重新制作一套角色。
 
 ## 🎯 我们希望构建什么？
 
-Souls 并不试图定义一种唯一的角色扮演方式。
+Essentia 并不试图定义一种唯一的角色扮演方式。
 
 它更像一个**开放的角色人格与知识素材层**。
 
-AI 平台负责提供模型、上下文、记忆、搜索、RAG 与交互能力；Souls 则提供一个经过整理的角色核心。
+AI 平台负责提供模型、上下文、记忆、搜索、RAG 与交互能力；Essentia 则提供一个经过整理的角色核心。
 
 可以把它理解为：
 
 ```text
                 ┌──────────────────┐
-                │      Souls       │
+                │     Essentia     │
                 │                  │
                 │ Persona +        │
                 │ Knowledge        │
@@ -261,13 +261,13 @@ AI 平台负责提供模型、上下文、记忆、搜索、RAG 与交互能力�
          Chat / AI Agent / Roleplay
 ```
 
-因此，Souls 不应该被限制为某一个平台的 Prompt 集合。
+因此，Essentia 不应该被限制为某一个平台的 Prompt 集合。
 
 它的内容可以被复制、转换、组合，并适应未来出现的其他 AI 平台。
 
-## 📐 架构规范 (Souls Persona Framework)
+## 📐 架构规范 (Essentia Persona Framework)
 
-为了保证角色人格的深度、稳定性与可复现性，Souls 沉淀了一套平台无关的**角色架构标准 (Framework v1.0)**，统一存放于 [`framework/`](framework/) 目录中：
+为了保证角色人格的深度、稳定性与可复现性，Essentia 沉淀了一套平台无关的**角色架构标准 (Framework v1.0)**，统一存放于 [`framework/`](framework/) 目录中：
 
 - [`framework/SPECIFICATION.md`](framework/SPECIFICATION.md) — 架构规范正文，定义三层架构（通用规则层、模块配置层、角色内容层）与 9 大核心概念。
 - [`framework/TEMPLATE.md`](framework/TEMPLATE.md) — 纯净去角色化模板，包含 18 项通用框架规则、7 大标准段落与 4 个可选功能模块。
@@ -341,23 +341,23 @@ AI 平台负责提供模型、上下文、记忆、搜索、RAG 与交互能力�
 
 ## ⚠️ 关于准确性
 
-Souls 是社区性质的角色整理与创作项目，并不意味着其中所有内容都能代表原作官方设定。
+Essentia 是社区性质的角色整理与创作项目，并不意味着其中所有内容都能代表原作官方设定。
 
 角色人格的提炼本身就包含一定程度的解释与抽象；对于存在路线差异、译名差异、设定冲突、后续剧情修订或不同媒介版本的作品，也可能存在不同合理解释。
 
 因此：
 
-> **Souls 的目标是尽可能忠实，而不是宣称拥有唯一解释权。**
+> **Essentia 的目标是尽可能忠实，而不是宣称拥有唯一解释权。**
 
 如果发现事实错误、遗漏或不一致，欢迎提交 Issue 或 Pull Request。
 
 ## ©️ Copyright & Disclaimer
 
-Souls 是一个独立的、非官方的同人及 AI 角色扮演相关项目。
+Essentia 是一个独立的、非官方的同人及 AI 角色扮演相关项目。
 
 本仓库中的许多角色、世界观、名称、设定、故事、人物关系以及其他原作元素均属于相应作品的作者、制作公司、出版社、发行商或其他权利人。
 
-**这些第三方知识产权并不属于 Souls，也不会因为它们出现在本仓库中而转移至本项目作者或贡献者。**
+**这些第三方知识产权并不属于 Essentia，也不会因为它们出现在本仓库中而转移至本项目作者或贡献者。**
 
 本项目不主张：
 
@@ -366,12 +366,12 @@ Souls 是一个独立的、非官方的同人及 AI 角色扮演相关项目。
 - 获得任何原作版权方的官方授权或背书；
 - 将第三方角色或作品中的知识产权作为本项目自身的原创资产。
 
-Souls 所提供的主要是对角色人格、背景信息及相关资料进行整理、结构化和编写所产生的原创性内容。
+Essentia 所提供的主要是对角色人格、背景信息及相关资料进行整理、结构化和编写所产生的原创性内容。
 
 因此，应当区分：
 
 ```text
-Souls 的原创整理 / 编写内容
+Essentia 的原创整理 / 编写内容
         ≠
 原作角色、世界观、故事与其他第三方知识产权
 ```
@@ -396,7 +396,7 @@ Souls 的原创整理 / 编写内容
 
 AI 根据这些内容生成的回答并不代表原作角色本人，也不代表原作版权方的观点。
 
-由于不同模型、平台、上下文和搜索结果可能产生不同输出，Souls 不保证任何 AI 系统能够完全、持续或准确地还原原作角色。
+由于不同模型、平台、上下文和搜索结果可能产生不同输出，Essentia 不保证任何 AI 系统能够完全、持续或准确地还原原作角色。
 
 ## 📜 License
 
@@ -412,6 +412,6 @@ AI 根据这些内容生成的回答并不代表原作角色本人，也不代�
 
 ---
 
-Souls was originally made for AstrBot.
+Essentia was originally made for AstrBot.
 
 It is now shared as a platform-independent collection so that the same character material can be used wherever people want to give an AI a more complete sense of **who a character is, what they know, and what they have become**.

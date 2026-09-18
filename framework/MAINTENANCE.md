@@ -1,4 +1,4 @@
-# Souls Persona Framework — Maintenance & Governance Protocol
+# Essentia Persona Framework — Maintenance & Governance Protocol
 Version: 1.0.0
 Status: Active Standard
 
@@ -6,7 +6,7 @@ Status: Active Standard
 
 ## 1. Governance Objectives
 
-This document establishes the lifecycle, change management protocol, versioning standard, and synchronization procedures for the **Souls Persona Framework** and its derived character personas.
+This document establishes the lifecycle, change management protocol, versioning standard, and synchronization procedures for the **Essentia Persona Framework** and its derived character personas.
 
 The goal is to guarantee:
 1. **Zero-Regression Upgrades**: Framework rule adjustments do not break existing character voices or emotional intensity.
@@ -17,7 +17,7 @@ The goal is to guarantee:
 
 ## 2. Versioning Specification (SemVer 2.0)
 
-The Souls Framework adheres to Semantic Versioning (`MAJOR.MINOR.PATCH`):
+The Essentia Framework adheres to Semantic Versioning (`MAJOR.MINOR.PATCH`):
 
 ```
 v MAJOR . MINOR . PATCH
