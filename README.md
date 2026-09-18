@@ -265,6 +265,18 @@ AI 平台负责提供模型、上下文、记忆、搜索、RAG 与交互能力�
 
 它的内容可以被复制、转换、组合，并适应未来出现的其他 AI 平台。
 
+## 📐 架构规范 (Souls Persona Framework)
+
+为了保证角色人格的深度、稳定性与可复现性，Souls 沉淀了一套平台无关的**角色架构标准 (Framework v1.0)**，统一存放于 [`framework/`](framework/) 目录中：
+
+- [`framework/SPECIFICATION.md`](framework/SPECIFICATION.md) — 架构规范正文，定义三层架构（通用规则层、模块配置层、角色内容层）与 9 大核心概念。
+- [`framework/TEMPLATE.md`](framework/TEMPLATE.md) — 纯净去角色化模板，包含 18 项通用框架规则、7 大标准段落与 4 个可选功能模块。
+- [`framework/GUIDELINES.md`](framework/GUIDELINES.md) — 编写与模块决策指南、Persona 与 Knowledge 边界划分、防人称颠倒与反模式集。
+- [`framework/MAINTENANCE.md`](framework/MAINTENANCE.md) — 框架版本控制 (SemVer)、变更管理四道门禁与 Git 协作纪律。
+- [`framework/CHECKLIST.md`](framework/CHECKLIST.md) — 角色创建与维护质量审计清单、故障快速诊断排查表。
+
+新建角色、重构现有角色或进行跨平台迁移时，建议遵循该套规范。
+
 ## 🎭 已有角色索引
 
 角色按作品名称排序：
